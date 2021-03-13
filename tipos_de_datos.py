@@ -5,7 +5,8 @@ data = ('  GARCIA,gonzalez,        rodriguez  ,FERNANDEZ ,LOPEZ,martinez ,  sanc
 """Dividir el string contenido en la variable `data` en donde se encuentre el 
 primer caracter `\n` y guardar el resultado en una variable llamada `var1`.
 """
-
+var1= data.split  ( "\n, 1")
+print (var1)
 
 """Guardar el primer elemento de la variable `var1` en una variable llamada 
 `apellidos` y el segundo elemento en una llamada `decimales`.
@@ -72,6 +73,8 @@ lista `apellidos_list`.
 (con las conversiones que sean necesarias) y agregarle el elemento de la 
 posición 78 de la lista `apellidos_list`.
 """
+apellidos_list2=apellidos_tuple
+print ()
 
 
 """Eliminar el 4to elemento de la variable `apellidos_list2`.
